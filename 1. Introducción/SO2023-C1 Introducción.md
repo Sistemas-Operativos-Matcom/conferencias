@@ -40,11 +40,11 @@ Para poder responder estas preguntas estudiaremos cómo funciona un SO analizand
 3 conceptos principales:
 
 **Virtualización:** Cómo el SO crea una abstracción sobre los recursos del
-*hardware.
+*hardware.<br>
 **Concurrencia:** Cómo el SO maneja varias tareas (que tienen recursos
-*compartidos principalmente) en un mismo intervalo de tiempo.
+compartidos principalmente) en un mismo intervalo de tiempo.<br>
 **Persistencia:** Cómo el SO lee y escribe la información en dispositivos de
-*almacenamiento.
+almacenamiento.
 
 
 <p align="center">
