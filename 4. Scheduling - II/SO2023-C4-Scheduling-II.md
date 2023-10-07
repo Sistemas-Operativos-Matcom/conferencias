@@ -1,7 +1,7 @@
 # 4. Scheduling - MLFQ
 
 Entre las estrategias vistas hasta ahora, algunas son buenas para mejorar el
-turnaround time, y otras soon buenas para mejorar el response time. Sin embargo,
+turnaround time, y otras son buenas para mejorar el response time. Sin embargo,
 vimos que generalmente cuando se optimizaba una de las métricas al mismo tiempo
 empeoraba la otra. Además, fueron pensadas asumiendo que sabemos el tiempo de
 duración de cada proceso.
@@ -63,9 +63,9 @@ En un primer caso, llega un proceso que utiliza de forma prolongada el CPU:
     <img src="./mlfq_1_ej1.png" width=500>
 </p>
 
-Como cada slice time es consumido completo, al terminar cada uno el proceso baja
-un nivel su prioridad. Final mente cuando llega la cola con menor prioridad (Q0)
-se mantiene en esta misma hasta que termina.
+Como cada slice time ha sido consumido completamente, al terminar cada uno,
+la prioridad del proceso baja en un nivel. Finalmente cuando llega la cola
+con menor prioridad (Q0) se mantiene en esta misma hasta que termina.
 
 Supongamos que a los 100 ms llega otro proceso (rojo) con una duración de 50 ms.
 El gráfico de ejecución sería de la siguiente forma:
