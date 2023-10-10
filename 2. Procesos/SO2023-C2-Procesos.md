@@ -1,4 +1,4 @@
-# C2 - Procesos
+# 2. Procesos
 
 ## Inicio del SO
 

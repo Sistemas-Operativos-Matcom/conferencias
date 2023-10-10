@@ -1,4 +1,4 @@
-# 3. Scheduling - I
+# 3. Scheduling - FIFO, SJF, STCF, RR
 
 Entonces, ya sabemos que cada cierto tiempo el SO tiene la opción de determinar
 qué proceso seguir ejecutando. Sin embargo, ¿que estrategias existen para
@@ -131,9 +131,9 @@ nuevo y su primera ejecución en el sistema:
 
 $$T_{response} = T_{firstrun} - T_{arrival}$$
 
-Por ejemplo, en el último caso visto el tiempo de respuesta de A es $0 ms$, el
-de B es $0~ms$ y el de C es $90 - 40 = 50~ms$ (como promedio sería $16.67~ms$
-aproximadamente).
+Por ejemplo, en el último caso visto el tiempo de respuesta de A es $0$ $ms$, el
+de B es $0$ $ms$ y el de C es $90 - 40 = 50$ $ms$ (como promedio sería $16.67$
+$ms$ aproximadamente).
 
 Las estrategias anteriores no son particularmente buenas teniendo en cuenta el
 response time. Por ejemplo, en STCF si llegan varios procesos al mismo tiempo el
@@ -147,10 +147,10 @@ sigue esta estrategia es cambiar de proceso cada cierto intervalo de tiempo. A
 este intervalo de tiempo se le conoce como **time slice** o **scheduling
 quantum**. Este tiempo debe ser un múltiplo del timer-interrupt.
 
-Por ejemplo, supongamos que el timer-interrupt es de $5~ms$ y se define un time
-slice de $25~ms$, y llegan tres procesos A, B y C en el instante cero y con una
-duración de $100~ms$ cada uno. La gráfica de ejecución quedaría de la siguiente
-forma:
+Por ejemplo, supongamos que el timer-interrupt es de $5$ $ms$ y se define un
+time slice de $25$ $ms$, y llegan tres procesos A, B y C en el instante cero y
+con una duración de $100$ $ms$ cada uno. La gráfica de ejecución quedaría de la
+siguiente forma:
 
 <p align="center">
     <img src="./rr_1.png" width=500>
