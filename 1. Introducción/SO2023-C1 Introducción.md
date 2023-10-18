@@ -1,4 +1,4 @@
-# C1 - Introducción al curso
+# 1. Introducción al curso
 
 Un **sistema operativo** es un programa que se encarga de manejar los recursos
 del hardware y servir como intermediario entre estos recursos y las
