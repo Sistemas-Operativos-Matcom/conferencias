@@ -242,7 +242,7 @@ haciendo el proceso padre original.
 
 Como ahora son dos procesos diferentes ejecutándose y el SO realiza time-sharing
 ambos se irán ejecutando poco a poco. Por tanto, qué código se ejecuta primero
-no es algo q se pueda determinar.
+no es algo que se pueda determinar.
 
 ### `wait`
 
